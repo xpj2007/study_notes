@@ -4,7 +4,7 @@
 	1. **公共继承**：==class B : public A== （public部分继承为public 、protected部分继承为protected 、private部分不可访问）
 	2. **保护继承**：==class B : protected A== （public 、protected部分继承为protected 、private部分不可访问）
 	3. **私有继承**：==class B : private A==（public 、protected部分继承为private 、private部分不可访问）
-	![[继承方式图.png]]
+	![继承方式图](继承方式图.png)
  - **作用**：减少重复代码，子类(派生类)在基类(父类)继承的基础上添加个性
  - **注意**:父类中私有成员也是被子类继承下去了，只是由编译器给隐藏后访问不到
  - **构造顺序**：继承中先调用父类构造函数，再调用子类构造函数，析构顺序与构造相反
