@@ -3,7 +3,7 @@
 	- CMake是通用的跨平台构建系统生成器，通过在不同平台生成对应的Makefile管理项目的构建，在不同平台的通用性好
 	- Catkin是在CMake上拓展的ROS构建系统
 - **CMake构建流程图**：
-![[Cmake构建流程图.png]]
+![Cmake构建流程图](image/Cmake构建流程图.png)
 # CMake基本语法
 
 ```CMake
@@ -110,7 +110,7 @@ list(REVERSE <list>)
 
 
 - **package功能包目录结构**：
-![[package功能包.png]]
+![package功能包](image/package功能包.png)
 
 ## 操作流程
 1. **创建工作空间**：

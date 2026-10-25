@@ -5,9 +5,9 @@
 	2. deque相对来说，对头部的删除速度比vector快
 	3. vector访问元素的速度比deque快
  - **逻辑效果图**
-- ![deque逻辑效果图](deque逻辑效果图.png)
+- ![deque逻辑效果图](image/deque逻辑效果图.png)
  - **数据结构图**：
-- ![deque数据结构图](deque数据结构图.png)
+- ![deque数据结构图](image/deque数据结构图.png)
 ### deque构造函数
  - ==`deque<T> deq`==                                          //默认构造函数
  - ==`deque(begin,end);`==                                 //构造函数将\[begin,end)区间中的元素拷贝给本身

@@ -1,7 +1,7 @@
 # stack
  - **概念**：栈容器，后进先出的数据结构，只有顶部的元素才能被外界使用，不允许有遍历行为
  - **数据结构图**：
-- ![stack数据结构图](stack数据结构图.png)
+- ![stack数据结构图](image/stack数据结构图.png)
 ### stack构造函数
  - ==`stack<T> stk;`==                                        //模板类实现，默认构造函数
  - ==`stack(const stack& stk);`==                     //拷贝构造函数
@@ -18,7 +18,7 @@
 # queue
  - **概念**：队列容器，先进先出的数据结构，不允许有遍历行为
  - **数据结构图**：
-- ![queue数据结构图](queue数据结构图.png)
+- ![queue数据结构图](image/queue数据结构图.png)
 ### queue构造函数
  - ==`queue<T> que;`==                                         //queue模板类实现，默认构造函数
  - ==`queue(const queue& que);`==                      //拷贝构造函数

@@ -5,8 +5,8 @@ git config --global user.name "你的名字"
 git config --global user.email "你的邮箱"
 ```
 # 二、Git区域
-![git区域图](git区域图.png)
-![git文件状态图](git文件状态图.png)
+![git区域图](image/git区域图.png)
+![git文件状态图](image/git文件状态图.png)
 # 三、常用命令
 ```Bash
 git init             # git仓库初始化
@@ -75,7 +75,7 @@ git branch -d <分支名>     # 删除分支(如果分支未合并则需要使�
 	- **中止合并**：git merge --abort
 
 - **git rebase**：
-![Rebase示意图](Rebase示意图.png)
+![Rebase示意图](image/Rebase示意图.png)
 	**rebase和merge对比**：
 		**merge**：
 			- 优点：不会破坏原分支的提交历史，方便回溯和查看
@@ -84,6 +84,6 @@ git branch -d <分支名>     # 删除分支(如果分支未合并则需要使�
 			- 优点：不会新增额外的提交记录，形成线性历史，比较直观和干净
 			- 缺点：会改变提交历史，改变了当前分支branch out的节点，避免在共享分支使用
 # 七、DX PR要求
-- **PR工作流**：![PR工作流](PR工作流.png)
+- **PR工作流**：![PR工作流](image/PR工作流.png)
 - PR提交后不可关闭再提交，在原来PR上修改
 - PR标题要求：英文、开头大写、英文句号`.`结尾
